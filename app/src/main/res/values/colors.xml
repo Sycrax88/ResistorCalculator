@@ -18,5 +18,15 @@
     <color name="background_all">#EAECEE</color>
     <color name="gold">#B7950B</color>
     <color name="silver">#C0C0C0</color>
-    <color name="white_for_button">#FFFFFFFF</color>
+    <color name="white_for_button">#FAFAFA</color>
+
+    <color name="primary">#009688</color>
+    <color name="primary_dark">#00796B</color>
+    <color name="primary_light">#B2DFDB</color>
+    <color name="accent">#CDDC39</color>
+    <color name="accent_dark">#7F8826</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
 </resources>

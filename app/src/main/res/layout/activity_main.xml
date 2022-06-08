@@ -125,14 +125,17 @@
 
         <Button
             android:id="@+id/black_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="1dp" />
 
         <Button
             android:id="@+id/brown_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/brown"
@@ -141,6 +144,7 @@
 
         <Button
             android:id="@+id/red_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/red"
@@ -149,6 +153,7 @@
 
         <Button
             android:id="@+id/orange_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/orange"
@@ -157,6 +162,7 @@
 
         <Button
             android:id="@+id/yellow_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/yellow"
@@ -165,6 +171,7 @@
 
         <Button
             android:id="@+id/green_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/green"
@@ -173,6 +180,7 @@
 
         <Button
             android:id="@+id/blue_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/blue"
@@ -181,6 +189,7 @@
 
         <Button
             android:id="@+id/purple_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/purple"
@@ -189,6 +198,7 @@
 
         <Button
             android:id="@+id/gray_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/gray"
@@ -197,6 +207,7 @@
 
         <Button
             android:id="@+id/white_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white_for_button"
@@ -217,10 +228,12 @@
         app:layout_constraintBottom_toTopOf="@+id/button12"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/second_band_text_view">
+        app:layout_constraintTop_toBottomOf="@+id/second_band_text_view"
+        app:singleSelection="true">
 
         <Button
             android:id="@+id/black_button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
@@ -229,6 +242,7 @@
 
         <Button
             android:id="@+id/brown_button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/brown"
@@ -237,6 +251,7 @@
 
         <Button
             android:id="@+id/red_button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/red"
@@ -245,6 +260,7 @@
 
         <Button
             android:id="@+id/orange_button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/orange"
@@ -253,6 +269,7 @@
 
         <Button
             android:id="@+id/yellow_button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/yellow"
@@ -261,6 +278,7 @@
 
         <Button
             android:id="@+id/green_button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/green"
@@ -269,6 +287,7 @@
 
         <Button
             android:id="@+id/blue_button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/blue"
@@ -277,6 +296,7 @@
 
         <Button
             android:id="@+id/purple_button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/purple"
@@ -285,6 +305,7 @@
 
         <Button
             android:id="@+id/gray_button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/gray"
@@ -293,6 +314,7 @@
 
         <Button
             android:id="@+id/white_button2"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white_for_button"
@@ -311,10 +333,12 @@
         app:layout_constraintBottom_toTopOf="@+id/button12"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/third_band_text_view">
+        app:layout_constraintTop_toBottomOf="@+id/third_band_text_view"
+        app:singleSelection="true">
 
         <Button
             android:id="@+id/black_button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
@@ -323,6 +347,7 @@
 
         <Button
             android:id="@+id/brown_button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/brown"
@@ -331,6 +356,7 @@
 
         <Button
             android:id="@+id/red_button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/red"
@@ -339,6 +365,7 @@
 
         <Button
             android:id="@+id/orange_button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/orange"
@@ -347,6 +374,7 @@
 
         <Button
             android:id="@+id/yellow_button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/yellow"
@@ -355,6 +383,7 @@
 
         <Button
             android:id="@+id/green_button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/green"
@@ -363,6 +392,7 @@
 
         <Button
             android:id="@+id/blue_button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/blue"
@@ -371,6 +401,7 @@
 
         <Button
             android:id="@+id/purple_button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/purple"
@@ -379,6 +410,7 @@
 
         <Button
             android:id="@+id/gray_button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/gray"
@@ -387,6 +419,7 @@
 
         <Button
             android:id="@+id/white_button3"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white_for_button"
@@ -405,10 +438,12 @@
         app:layout_constraintBottom_toTopOf="@+id/button12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/tolerance_band_text_view">
+        app:layout_constraintTop_toBottomOf="@+id/tolerance_band_text_view"
+        app:singleSelection="true">
 
         <Button
             android:id="@+id/golden_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/gold"
@@ -417,6 +452,7 @@
 
         <Button
             android:id="@+id/silver_button1"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/silver"

@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">ResistorCalculator</string>
+    <string name="app_name">Calculadora de Resistencias</string>
     <string name="first_band">Primera Banda</string>
     <string name="second_band">Segunda Banda</string>
     <string name="third_band">Tercera Banda</string>
     <string name="Tolerance_band">Tolerancia %</string>
     <string name="calculate">Calcular</string>
-    <string name="info">"%s Ω %s±"</string>
+    <string name="info">"%s Ω ±%sΩ"</string>
 
 </resources>
