@@ -4,4 +4,5 @@
     <string name="second_band">Segunda Banda</string>
     <string name="third_band">Tercera Banda</string>
     <string name="Tolerance_band">Tolerancia %</string>
+    <string name="calculate">Calcular</string>
 </resources>
