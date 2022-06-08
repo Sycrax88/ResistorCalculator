@@ -8,6 +8,19 @@
     tools:context=".ui.main.MainActivity">
 
     <TextView
+        android:id="@+id/ohm_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0Ω"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/first_band_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -95,39 +108,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/resistor" />
-
-    <LinearLayout
-        android:id="@+id/Vertical_Layout_4"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/tolerance_band_text_view">
-
-        <Button
-            android:id="@+id/golden_button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/gold"
-            android:insetTop="1dp"
-            android:insetBottom="1dp" />
-
-        <Button
-            android:id="@+id/silver_button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/silver"
-            android:insetTop="1dp"
-            android:insetBottom="1dp" />
-
-
-    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/Vertical_Layout_1"
@@ -412,6 +392,39 @@
             android:backgroundTint="@color/white"
             android:insetTop="1dp"
             android:insetBottom="1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Vertical_Layout_4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/tolerance_band_text_view">
+
+        <Button
+            android:id="@+id/golden_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gold"
+            android:insetTop="1dp"
+            android:insetBottom="1dp" />
+
+        <Button
+            android:id="@+id/silver_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/silver"
+            android:insetTop="1dp"
+            android:insetBottom="1dp" />
+
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
