@@ -12,7 +12,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="0Ω"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -109,8 +108,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/resistor" />
 
-    <LinearLayout
-        android:id="@+id/Vertical_Layout_1"
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleButtonGroup1"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
@@ -120,7 +119,9 @@
         app:layout_constraintBottom_toTopOf="@+id/button12"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/first_band_text_view">
+        app:layout_constraintTop_toBottomOf="@+id/first_band_text_view"
+        app:singleSelection="true">
+
 
         <Button
             android:id="@+id/black_button1"
@@ -198,13 +199,15 @@
             android:id="@+id/white_button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/white_for_button"
             android:insetTop="1dp"
             android:insetBottom="1dp" />
-    </LinearLayout>
+    </com.google.android.material.button.MaterialButtonToggleGroup>
 
-    <LinearLayout
-        android:id="@+id/Vertical_Layout_2"
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+
+        android:id="@+id/toggleButtonGroup2"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
@@ -292,13 +295,13 @@
             android:id="@+id/white_button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/white_for_button"
             android:insetTop="1dp"
             android:insetBottom="1dp" />
-    </LinearLayout>
+    </com.google.android.material.button.MaterialButtonToggleGroup>
 
-    <LinearLayout
-        android:id="@+id/Vertical_Layout_3"
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleButtonGroup3"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
@@ -386,13 +389,13 @@
             android:id="@+id/white_button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/white_for_button"
             android:insetTop="1dp"
             android:insetBottom="1dp" />
-    </LinearLayout>
+    </com.google.android.material.button.MaterialButtonToggleGroup>
 
-    <LinearLayout
-        android:id="@+id/Vertical_Layout_4"
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/toggleButtonGroup4"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
@@ -421,10 +424,10 @@
             android:insetBottom="1dp" />
 
 
-    </LinearLayout>
+    </com.google.android.material.button.MaterialButtonToggleGroup>
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/calculate_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
