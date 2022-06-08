@@ -113,10 +113,10 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintBottom_toTopOf="@+id/calculate_button"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/first_band_text_view"
@@ -131,7 +131,7 @@
             android:backgroundTint="@color/black"
             android:insetTop="1dp"
             android:insetBottom="1dp"
-            app:strokeWidth="1dp" />
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/brown_button1"
@@ -140,7 +140,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/brown"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/red_button1"
@@ -149,7 +150,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/red"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/orange_button1"
@@ -158,7 +160,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/orange"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/yellow_button1"
@@ -167,7 +170,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/yellow"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/green_button1"
@@ -176,7 +180,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/green"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/blue_button1"
@@ -185,7 +190,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/blue"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/purple_button1"
@@ -194,7 +200,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/purple"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/gray_button1"
@@ -203,7 +210,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/gray"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/white_button1"
@@ -212,7 +220,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white_for_button"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
     </com.google.android.material.button.MaterialButtonToggleGroup>
 
 
@@ -222,10 +231,10 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintBottom_toTopOf="@+id/calculate_button"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/second_band_text_view"
@@ -238,7 +247,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/brown_button2"
@@ -247,7 +257,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/brown"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/red_button2"
@@ -256,7 +267,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/red"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/orange_button2"
@@ -265,7 +277,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/orange"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/yellow_button2"
@@ -274,7 +287,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/yellow"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/green_button2"
@@ -283,7 +297,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/green"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/blue_button2"
@@ -292,7 +307,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/blue"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/purple_button2"
@@ -301,7 +317,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/purple"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/gray_button2"
@@ -310,7 +327,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/gray"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/white_button2"
@@ -319,7 +337,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white_for_button"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
     </com.google.android.material.button.MaterialButtonToggleGroup>
 
     <com.google.android.material.button.MaterialButtonToggleGroup
@@ -327,10 +346,10 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintBottom_toTopOf="@+id/calculate_button"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toBottomOf="@+id/third_band_text_view"
@@ -343,7 +362,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/brown_button3"
@@ -352,7 +372,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/brown"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/red_button3"
@@ -361,7 +382,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/red"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/orange_button3"
@@ -370,7 +392,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/orange"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/yellow_button3"
@@ -379,7 +402,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/yellow"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/green_button3"
@@ -388,7 +412,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/green"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/blue_button3"
@@ -397,7 +422,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/blue"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/purple_button3"
@@ -406,7 +432,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/purple"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/gray_button3"
@@ -415,7 +442,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/gray"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/white_button3"
@@ -424,7 +452,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/white_for_button"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
     </com.google.android.material.button.MaterialButtonToggleGroup>
 
     <com.google.android.material.button.MaterialButtonToggleGroup
@@ -432,10 +461,10 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintBottom_toTopOf="@+id/calculate_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/tolerance_band_text_view"
@@ -448,7 +477,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/gold"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
         <Button
             android:id="@+id/silver_button1"
@@ -457,7 +487,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/silver"
             android:insetTop="1dp"
-            android:insetBottom="1dp" />
+            android:insetBottom="1dp"
+            app:strokeWidth="2dp" />
 
 
     </com.google.android.material.button.MaterialButtonToggleGroup>
